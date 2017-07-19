@@ -1,0 +1,13 @@
+# Steps to generate a parts listing from partsurfer.
+
+1/  Edit the data/models file to include the models 
+    you wish to process.
+
+2/ Foreach modelname entry in data/models create a data/modelname.
+
+3/ In each data/modelname  list the option numbers as found in 
+   the quickspecs file for that the model.
+
+4/ Then run ./pnget.sh
+
+5/ Then run pnfmt.sh
