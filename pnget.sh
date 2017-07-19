@@ -1,5 +1,6 @@
 #!/bin/bash
 # A line to test a simple change
+# another my_brach line
 for model in `cat models`
 do
 
